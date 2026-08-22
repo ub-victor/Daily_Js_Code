@@ -6,5 +6,24 @@ If a = [1, 2] and b = [1], the result should be [2].
 
 If a = [1, 2, 2, 2, 3] and b = [2], the result should be [1, 3].
 
+Short solution:
+function arrayDiff(a, b) {
+  return a.filter(x => !b.includes(x));
+}
+
+function arrayDiff(a, b) {
+  let res = [];
+
+  for (let i of a) {
+    if (!b.includes(i)) {
+      res.push(i);
+    }
+  }
+
+  return res;
+}
+
+console.log(arrayDiff([1, 2], [1]));              // [2]
+console.log(arrayDiff([1, 2, 2, 2, 3], [2]));   // [1, 3]
 
 */
