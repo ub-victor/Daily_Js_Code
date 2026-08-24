@@ -32,7 +32,7 @@ const arrayDiff = (a,b) => {
   let res = [];
   for (const i of a){
     if(!b.include(i)){
-      
+      res.push(i);
     }
   }
 }
