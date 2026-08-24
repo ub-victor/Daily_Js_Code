@@ -35,4 +35,5 @@ const arrayDiff = (a,b) => {
       res.push(i);
     }
   }
+  return res;
 }
