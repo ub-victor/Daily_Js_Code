@@ -29,5 +29,5 @@ console.log(arrayDiff([1, 2, 2, 2, 3], [2]));   // [1, 3]
 
 */
 const arrayDiff = (a,b) => {
-  
+  let res = [];
 }
