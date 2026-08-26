@@ -20,9 +20,9 @@ const firstDuplicate = (arr) =>{
             return num
         }
 
-        seen.add(num);
+        seen.add(num);// if the number is not in the set, we add it to the set
     }
     return -1;
 }
 
-console.log(arr([[1, 2, 3, 4]]))
+console.log(firstDuplicate([1, 2, 3, 4, 5, 6, 6, 6])); // Output: 6
