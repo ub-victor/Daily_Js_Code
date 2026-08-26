@@ -10,5 +10,5 @@ If there is no duplicatite, return -1
 */
 
 const firstDuplicate = (arr) =>{
-
+    const seen = new set();
 }
