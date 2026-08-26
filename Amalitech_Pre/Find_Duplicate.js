@@ -13,7 +13,7 @@ console.log(numbers)
 */
 
 const firstDuplicate = (arr) =>{
-    const seen = new set();
+    const seen = new set();// this will store the unique values we have seen so far
 
     for(const num of arr){
         if(seen.has(num)){
