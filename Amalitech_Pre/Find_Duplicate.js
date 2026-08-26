@@ -1,3 +1,5 @@
 /*
 Find the First Duplicate
+
+Scenario
 */
