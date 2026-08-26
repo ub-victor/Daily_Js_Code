@@ -6,3 +6,4 @@ A system needs to analyze a username and determine how many times each character
 Return an object containing the frequency of every character
 
 */
+
