@@ -9,3 +9,6 @@ Given an array of transaction IDs, Return the first ID that appears more than on
 If there is no duplicatite, return -1
 */
 
+const firstDuplicate = (arr) =>{
+
+}
