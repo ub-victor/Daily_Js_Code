@@ -14,4 +14,8 @@ console.log(numbers)
 
 const firstDuplicate = (arr) =>{
     const seen = new set();
+
+    for(const num of arr){
+        
+    }
 }
