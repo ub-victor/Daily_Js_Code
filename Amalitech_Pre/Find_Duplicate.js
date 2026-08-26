@@ -8,6 +8,8 @@ A transaction ID should appear only once
 Given an array of transaction IDs, Return the first ID that appears more than once
 If there is no duplicatite, return -1
 The syntax new set() create a collection of Unique values: 
+const numbers = new set([1,2,3,4,5,6,6,6]);
+console.log(numbers)
 */
 
 const firstDuplicate = (arr) =>{
