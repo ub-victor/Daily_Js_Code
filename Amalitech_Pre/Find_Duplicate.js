@@ -16,6 +16,11 @@ const firstDuplicate = (arr) =>{
     const seen = new set();
 
     for(const num of arr){
-        
+        if(seen.has(num)){
+            return num
+        }
+
+        seen.add(num);
     }
+    return -1;
 }
