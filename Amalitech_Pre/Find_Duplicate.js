@@ -2,5 +2,5 @@
 Find the First Duplicate
 
 Scenario
-You are building a system that receives a list of Transaction IDs.
+You are building a system that receives a list of transaction IDs.
 */
