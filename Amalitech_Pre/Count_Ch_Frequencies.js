@@ -11,7 +11,7 @@ const characterFrequency = (str) =>{
     const frequency = {};
 
     for(const char of str){
-        if (frequency[char]){
+        if (frequency[char]){// if the character is already in the object, we increment its count
             frequency[char]++
         }else{
             frequency[char] = 1;
