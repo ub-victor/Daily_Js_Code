@@ -16,7 +16,7 @@ const firstDuplicate = (arr) =>{
     const seen = new set();// this will store the unique values we have seen so far
 
     for(const num of arr){
-        if(seen.has(num)){
+        if(seen.has(num)){// if the number is already in the set, it means we have seen it before
             return num
         }
 
