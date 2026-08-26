@@ -10,5 +10,7 @@ Return an object containing the frequency of every character
 const characterFrequency = (str) =>{
     const frequency = {};
 
-    
+    for(const char of str){
+        
+    }
 }
